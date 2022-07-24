@@ -8,15 +8,32 @@
 </head>
 <body>
     <script>
-        switch (expression) {
-            case x:
-                // execute case x code block
+        const day = new date().getDay();
+
+        switch (day){
+            case 0:
+                console.log("Happy Sunday!");
                 break;
-            case y:
-                // execute case y code block
+            case 1:
+                console.log("Happy Monday!");
+                break;
+            case 2:
+                console.log("Happy Tuesday!");
+                break;
+            case 3: 
+                console.log("Happy Wednesday!");
+                break;
+            case 4:
+                console.log("Thirsty Thursday!");
+                break;
+            case 5: 
+                console.log("Freaky Friday!");
+                break;
+            case 6: 
+                console.log("Happy Saturday!");
                 break;
             default:
-                // execute default code block
+                console.log("Invalid day!");
         }
     </script> 
 </body>
